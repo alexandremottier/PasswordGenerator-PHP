@@ -3,6 +3,7 @@
 <head>
 
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width">
   <title>Générateur de mot de passe</title>
 
   <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -35,6 +36,8 @@
 <br />
 <div style="text-align: center;">
 <button type="button" id="btn_click" />Générer nouveau mot de passe</button>
+<br /><br />
+<a href="https://forge.am-networks.fr/am/PasswordGenerator-PHP" target="_blank">Cliquez ici pour accéder au code source</a>
 </div>
 </body>
 </html>
