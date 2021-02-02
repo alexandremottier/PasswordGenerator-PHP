@@ -3,8 +3,8 @@ $minuscule = array('alpha',  'bravo',  'charlie',  'delta',  'echo',  'foxtrot',
 $majuscule = array('ALPHA',  'BRAVO', 'CHARLIE', 'DELTA', 'ECHO', 'FOXTROT', 'GOLF', 'HOTEL', 'INDIA', 'JULIETTE', 'KILO', 'LIMA', 'NOVEMBER', 'OSCAR', 'PAPA', 'QUEBEC', 'ROMEO', 'SIERRA', 'TANGO', 'UNIFORM', 'VICTOR', 'WHISKY', 'YANKEE', 'ZULU');
 $special = array('@', '+', '-', '&');
 
-echo $majuscule[array_rand($majuscule)];
 echo $minuscule[array_rand($minuscule)];
+echo $majuscule[array_rand($majuscule)];
 echo $special[array_rand($special)];
 echo(rand(1,99));
 ?>
