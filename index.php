@@ -3,34 +3,38 @@
 <head>
 
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-  <title>G&eacute;n&eacute;rateur de mot de passe</title>
+  <title>Générateur de mot de passe</title>
 
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script>
+        $(document).ready(function() {
+        $('#btn_click').on('click', function() {
+        var url = 'index.php'; //please insert the url of the your current page here, we are assuming the url is 'index.php'
+        $('#passgen-wrapper').load(url + ' #passgen'); //note: the space before #div1 is very important
+        });
+    });
+  </script>
 
 </head>
 <body>
 
-<h1 style="text-align: center;">G&eacute;n&eacute;rateur
-de mot de passe</h1>
-
-<br>
-
-<div style="text-align: center;">
+<h1 style="text-align: center;">Générateur de mot de passe</h1>
+<div id="passgen-wrapper">
+  <div id="passgen" style="text-align: center;">
+    <?php
+      $minuscule = array('alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india', 'juliette', 'kilo', 'lima', 'november', 'oscar', 'papa', 'quebec', 'romeo', 'sierra', 'tango', 'uniform', 'victor', 'whisky', 'yankee', 'zulu');
+      $majuscule = array('ALPHA', 'BRAVO', 'CHARLIE', 'DELTA', 'ECHO', 'FOXTROT', 'GOLF', 'HOTEL', 'INDIA', 'JULIETTE', 'KILO', 'LIMA', 'NOVEMBER', 'OSCAR', 'PAPA', 'QUEBEC', 'ROMEO', 'SIERRA', 'TANGO', 'UNIFORM', 'VICTOR', 'WHISKY', 'YANKEE', 'ZULU');
+      $special = array('@', '+', '-', '&');
+      echo $minuscule[array_rand($minuscule)];
+      echo $majuscule[array_rand($majuscule)];
+      echo $special[array_rand($special)];
+      echo(rand(1,99));
+    ?>
+  </div>
 </div>
-
+<br />
 <div style="text-align: center;">
-<?php
-$minuscule = array('alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india', 'juliette', 'kilo', 'lima', 'november', 'oscar', 'papa', 'quebec', 'romeo', 'sierra', 'tango', 'uniform', 'victor', 'whisky', 'yankee', 'zulu');
-$majuscule = array('ALPHA', 'BRAVO', 'CHARLIE', 'DELTA', 'ECHO', 'FOXTROT', 'GOLF', 'HOTEL', 'INDIA', 'JULIETTE', 'KILO', 'LIMA', 'NOVEMBER', 'OSCAR', 'PAPA', 'QUEBEC', 'ROMEO', 'SIERRA', 'TANGO', 'UNIFORM', 'VICTOR', 'WHISKY', 'YANKEE', 'ZULU');
-$special = array('@', '+', '-', '&');
-echo $minuscule[array_rand($minuscule)];
-echo $majuscule[array_rand($majuscule)];
-echo $special[array_rand($special)];
-echo(rand(1,99));
-?>
-<br>
-
+<button type="button" id="btn_click" />Générer nouveau mot de passe</button>
 </div>
-<div style="text-align: center;"></div>
-
 </body>
 </html>
