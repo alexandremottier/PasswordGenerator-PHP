@@ -9,8 +9,8 @@
   <script>
         $(document).ready(function() {
         $('#btn_click').on('click', function() {
-        var url = 'index.php'; //please insert the url of the your current page here, we are assuming the url is 'index.php'
-        $('#passgen-wrapper').load(url + ' #passgen'); //note: the space before #div1 is very important
+        var url = 'index.php';
+        $('#passgen-wrapper').load(url + ' #passgen');
         });
     });
   </script>
