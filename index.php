@@ -37,7 +37,7 @@
 <div style="text-align: center;">
 <button type="button" id="btn_click" />Générer nouveau mot de passe</button>
 <br /><br />
-<a href="https://forge.am-networks.fr/am/PasswordGenerator-PHP" target="_blank">Cliquez ici pour accéder au code source</a>
+<a href="https://forge.am-networks.fr/AMNetworks/PasswordGenerator-PHP" target="_blank">Cliquez ici pour accéder au code source</a>
 </div>
 </body>
 </html>
