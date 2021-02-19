@@ -13,3 +13,9 @@ Cette page inclut le responsive design, c'est à dire qu'elle s'adapte au format
 
 Ce fichier sert à l'utilisation depuis un autre outil via une requête. Il ne renvoie que le mot de passe généré, sans mise en forme.
 Écrit totalement en PHP, le seul code source renvoyé est le mot de passe généré.
+
+## Instance AM Networks
+
+Envie de tester le générateur directement chez vous ?
+
+[Découvrez mon instance de test !](https://services.am-networks.fr/pwdgen)
