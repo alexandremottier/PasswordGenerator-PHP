@@ -1,4 +1,4 @@
-[*To read this README in English, click here*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README_en.md)
+[*To read this README in English, click here.*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README_en.md)
 
 # Générateur de mot de passe basé sur PHP et Javascript
 

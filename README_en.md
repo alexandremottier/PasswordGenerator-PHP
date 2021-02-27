@@ -1,4 +1,4 @@
-[*Pour lire ce README en Français, cliquez ici*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README.md)
+[*Pour lire ce README en Français, cliquez ici.*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README.md)
 
 # Password generator based on PHP and Javascript
 
@@ -22,6 +22,6 @@ Written completely in PHP, the only source code returned is the generated passwo
 
 Want to test the generator directly at home?
 
-[Discover my test instance!] (https://services.am-networks.fr/pwdgen/index_en.php)
+[Discover my test instance!](https://services.am-networks.fr/pwdgen/index_en.php)
 
 This instance is updated by GitLab every minute.
