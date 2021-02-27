@@ -5,7 +5,7 @@
 This is a web password generator.
 To make it work, you just have to get the index_en.php and getpwd.php files and upload them to your web server, in your folder / subdomain intended for this purpose.
 
-You will also to rename index_en.php to index.php.
+You will also need to rename index_en.php to index.php.
 
 ## index_en.php file
 
