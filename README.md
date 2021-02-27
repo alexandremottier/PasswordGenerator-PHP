@@ -1,3 +1,5 @@
+[*To read this README in English, click here*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README_en.md)
+
 # Générateur de mot de passe basé sur PHP et Javascript
 
 Ceci est un générateur de mot de passe web.
@@ -18,13 +20,10 @@ Ce fichier sert à l'utilisation depuis un autre outil via une requête. Il ne r
 
 Même fichier que index.php mais totalement en anglais (variables comprises).
 
-You speak English ? You can remove the original index.php file or rename it to index_fr.php and rename index_en.php to index.php.
-For more information, feel free to [contact me](mailto:contact@am-networks.fr)
-
 ## Instance AM Networks
 
 Envie de tester le générateur directement chez vous ?
 
 [Découvrez mon instance de test !](https://services.am-networks.fr/pwdgen)
 
-You speak English ? No problem, [you can discover english page](https://services.am-networks.fr/pwdgen/index_en.php)
+Cette instance est mise à jour par GitLab chaque minute.
