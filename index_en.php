@@ -37,7 +37,7 @@
 <div style="text-align: center;">
 <button type="button" id="btn_click" />Generate new password</button>
 <br /><br />
-Made in France 🇫🇷 by <a href="https://gitlab.am-networks.fr/am" target="_blank">Alexandre</a>
+Made in France 🇫🇷 by <a href="https://gitlab.am-networks.fr/am" target="_blank">Alexandre</a><br />
 <a href="https://gitlab.am-networks.fr/am/PasswordGenerator-PHP" target="_blank">Click here to access source code</a>
 </div>
 </body>
