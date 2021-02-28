@@ -27,4 +27,4 @@ Want to test the generator directly at home?
 
 [Discover my test instance!](https://services.am-networks.fr/pwdgen/index_en.php)
 
-This instance is updated by GitLab every minute.
+This instance is updated by [GitLab](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP) every minute.
