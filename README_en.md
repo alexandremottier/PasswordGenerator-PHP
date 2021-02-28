@@ -1,3 +1,6 @@
+![Last release](https://services.am-networks.fr/badges/PasswordGenerator-PHP/release.svg)
+![Status](https://services.am-networks.fr/badges/PasswordGenerator-PHP/status.svg)
+
 [*Pour lire ce README en Français, cliquez ici.*](https://gitlab.am-networks.fr/am/PasswordGenerator-PHP/-/blob/master/README.md)
 
 # Password generator based on PHP and Javascript
