@@ -1,3 +1,9 @@
+<html>
+<head>
+<meta charset="utf-8"
+<title>Générateur de mots de passe (créé avec ChatGPT)</title>
+</head>
+<body>
 <form method="post" action="">
     <fieldset>
     <legend>Configuration</legend>
@@ -76,3 +82,5 @@ $password = implode(array_slice($chars, 0, $length));
 echo $password;
 ?>
 </fieldset>
+</body>
+</html>
