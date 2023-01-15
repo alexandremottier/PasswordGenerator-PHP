@@ -23,7 +23,7 @@
 </form>
 <br>
 <fieldset>
-<legend>Mot de passe généré :</legend>
+<legend>Mot de passe généré</legend>
 <br>
 <?php
 
