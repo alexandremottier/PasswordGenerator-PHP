@@ -1,4 +1,5 @@
 <form method="post" action="">
+    <legend>Configuration</legend>
     <label for="length">Longueur du mot de passe :</label>
     <input type="number" name="length" value="<?php echo $length; ?>" required>
 
@@ -19,7 +20,8 @@
     <input type="submit" name="submit" value="Générer le mot de passe">
 </form>
 <br><br>
-<label>Mot de passe généré</label>
+<legend>Résultat génération</legend>
+<label>Mot de passe généré :</label>
 <br>
 <?php
 
