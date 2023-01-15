@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta charset="utf-8"
+<meta charset="utf-8">
 <title>Générateur de mots de passe (créé avec ChatGPT)</title>
 </head>
 <body>
