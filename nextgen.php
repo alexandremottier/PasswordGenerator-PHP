@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<form method="post" action="">
+<form method="get" action="">
     <fieldset>
     <legend>Configuration</legend>
     <label for="length">Longueur du mot de passe :</label>
