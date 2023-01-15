@@ -42,12 +42,12 @@ $useNumbers = true; // Utiliser les chiffres par défaut
 $useSpecial = false; // Ne pas utiliser les caractères spéciaux par défaut
 
 // Si le formulaire a été soumis, mettre à jour les paramètres en fonction des valeurs soumises
-if (isset($_POST['submit'])) {
-    $length = (int)$_POST['length'];
-    $useUpper = (bool)$_POST['useUpper'];
-    $useLower = (bool)$_POST['useLower'];
-    $useNumbers = (bool)$_POST['useNumbers'];
-    $useSpecial = (bool)$_POST['useSpecial'];
+if (isset($_GET['submit'])) {
+    $length = (int)$_GET['length'];
+    $useUpper = (bool)$_GET['useUpper'];
+    $useLower = (bool)$_GET['useLower'];
+    $useNumbers = (bool)$_GET['useNumbers'];
+    $useSpecial = (bool)$_GET['useSpecial'];
 }
 
 // Tableau de caractères disponibles pour générer le mot de passe
