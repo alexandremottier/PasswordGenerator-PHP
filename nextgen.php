@@ -21,10 +21,9 @@
     <input type="submit" name="submit" value="Générer le mot de passe">
   </fieldset>
 </form>
-<br><br>
+<br>
 <fieldset>
-<legend>Résultat génération</legend>
-<label>Mot de passe généré :</label>
+<legend>Mot de passe généré :</legend>
 <br>
 <?php
 
