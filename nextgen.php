@@ -21,7 +21,7 @@
     <br>
     <input type="checkbox" name="useNumbers" value="1" checked> Utiliser les chiffres
     <br>
-    <input type="checkbox" name="useSpecial" value="1" checked> Utiliser les caractères spéciaux
+    <input type="checkbox" name="useSpecial" value="1"> Utiliser les caractères spéciaux
 
     <br><br>
 
