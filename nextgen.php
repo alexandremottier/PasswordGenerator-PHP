@@ -1,3 +1,26 @@
+<form method="post" action="">
+    <label for="length">Longueur du mot de passe :</label>
+    <input type="number" name="length" value="<?php echo $length; ?>" required>
+
+    <br><br>
+
+    <label>Type de caractères :</label>
+    <br>
+    <input type="checkbox" name="useUpper" value="1" <?php echo $useUpper ? 'checked' : ''; ?>> Utiliser les majuscules
+    <br>
+    <input type="checkbox" name="useLower" value="1" <?php echo $useLower ? 'checked' : ''; ?>> Utiliser les minuscules
+    <br>
+    <input type="checkbox" name="useNumbers" value="1" <?php echo $useNumbers ? 'checked' : ''; ?>> Utiliser les chiffres
+    <br>
+    <input type="checkbox" name="useSpecial" value="1" <?php echo $useSpecial ? 'checked' : ''; ?>> Utiliser les caractères spéciaux
+
+    <br><br>
+
+    <input type="submit" name="submit" value="Générer le mot de passe">
+</form>
+<br><br>
+<label>Mot de passe généré</label>
+<br>
 <?php
 
 // Variables pour stocker les paramètres de génération de mot de passe
