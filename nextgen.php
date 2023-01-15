@@ -2,19 +2,19 @@
     <fieldset>
     <legend>Configuration</legend>
     <label for="length">Longueur du mot de passe :</label>
-    <input type="number" name="length" value="<?php echo $length; ?>" required>
+    <input type="number" name="length" value="12" min="8" max="100" required>
 
     <br><br>
 
     <label>Type de caractères :</label>
     <br>
-    <input type="checkbox" name="useUpper" value="1" <?php echo $useUpper ? 'checked' : ''; ?>> Utiliser les majuscules
+    <input type="checkbox" name="useUpper" value="1" checked> Utiliser les majuscules
     <br>
-    <input type="checkbox" name="useLower" value="1" <?php echo $useLower ? 'checked' : ''; ?>> Utiliser les minuscules
+    <input type="checkbox" name="useLower" value="1" checked> Utiliser les minuscules
     <br>
-    <input type="checkbox" name="useNumbers" value="1" <?php echo $useNumbers ? 'checked' : ''; ?>> Utiliser les chiffres
+    <input type="checkbox" name="useNumbers" value="1" checked> Utiliser les chiffres
     <br>
-    <input type="checkbox" name="useSpecial" value="1" <?php echo $useSpecial ? 'checked' : ''; ?>> Utiliser les caractères spéciaux
+    <input type="checkbox" name="useSpecial" value="1" checked> Utiliser les caractères spéciaux
 
     <br><br>
 
