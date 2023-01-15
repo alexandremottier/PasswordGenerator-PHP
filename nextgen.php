@@ -1,4 +1,5 @@
 <form method="post" action="">
+    <fieldset>
     <legend>Configuration</legend>
     <label for="length">Longueur du mot de passe :</label>
     <input type="number" name="length" value="<?php echo $length; ?>" required>
@@ -18,8 +19,10 @@
     <br><br>
 
     <input type="submit" name="submit" value="Générer le mot de passe">
+  </fieldset>
 </form>
 <br><br>
+<fieldset>
 <legend>Résultat génération</legend>
 <label>Mot de passe généré :</label>
 <br>
@@ -72,3 +75,5 @@ $password = implode(array_slice($chars, 0, $length));
 
 // Utiliser $password pour générer un mot de passe
 echo $password;
+?>
+</fieldset>
