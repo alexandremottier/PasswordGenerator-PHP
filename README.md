@@ -26,6 +26,6 @@ Même fichier que index.php mais totalement en anglais (variables comprises).
 ## Instance AM Networks
 
 Envie de tester le générateur directement chez vous ?
-[Découvrez mon instance de test !](https://services.am-networks.fr/pwdgen)
+[Découvrez mon instance de test !](https://services.am-networks.fr/passwordgenerator/)
 
 Cette instance est mise à jour par GitLab chaque minute pour vous offrir l'expérience du code en temps réel.
